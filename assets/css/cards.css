@@ -149,6 +149,18 @@
       
      
     }
+    .desigcontainer{
+            width: 305px;
+            height: 513px;
+
+        }
+
+        .paycard{
+           width: 100%;
+            height: 740px;
+            margin-top: 10px;
+        }
+
 
   }
   
