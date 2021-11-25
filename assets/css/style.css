@@ -1584,6 +1584,9 @@
         .payworthylistmobile{
             display :none;
         }
+        .basedh{
+            font-size: 30px;
+        }
 
 
 @media screen and max-width(572px){
@@ -1656,6 +1659,8 @@
             color: #fff;
             line-height: 1.5;
             font-weight: lighter;
+            padding-right: 20px;
+    padding-top: 10px;
 
 
         }
