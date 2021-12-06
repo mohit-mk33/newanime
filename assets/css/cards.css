@@ -128,12 +128,14 @@
     .container-again{
       margin-top: 11px;
       height: 145px;
-      font-size: 27px;
+      font-size: 28px;
       margin-bottom: ;
     }
     .container-again1{
       width: 200px;
      margin: auto;
+     display: inherit;
+
 
      
     }
