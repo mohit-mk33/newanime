@@ -190,7 +190,7 @@
         top: 40%;
         left: -40%;
         transform: translateY(-50%);
-        z-index: 1
+        z-index: -10000;
     }
     .header-bg-section::before{
         content: "";
@@ -198,13 +198,14 @@
         width: 100%;
         height: 100%;
         left: 196px;
-        top: 0;
+        top: 57px;
         bottom: 0;
         margin: auto 0;
         background-image: url(../images/header-bg.svg);
         background-size: 100%;
         background-position: center center;
         background-repeat: no-repeat;
+        
     }
     .header-section{
         width: 100%;
@@ -425,7 +426,8 @@
             font-weight: 500;
         }
         .allyou{
-            font-size: 21px;
+            font-size: 15px;
+            font-weight: bold;
         }
         .header_hidden_pc{
             display: none;
@@ -433,14 +435,15 @@
         .header_hidden{
             display: block;
             padding-left: 26px;
-            line-height: 1.7;
+            line-height: 1.8;
+            font-size: 13px;
         }
         .header_hidden li{
             align-items: left;
             padding-left: px;
         }
         .web1{
-            margin-top: -60px;
+            margin-top: -142px;
         }
         .web1header{
             margin-bottom: -60px;
@@ -915,7 +918,7 @@
         position: relative;
         margin-bottom: -11px;
         margin-top: 121px;
-        z-index: 1000;
+        z-index: -1000;
 
 
     }
@@ -980,7 +983,7 @@
         max-width: 800px;
     }
     .perfection-title-section ul{
-        list-style-image: url(../images/new/check.png);
+        list-style-image: url(../images/new/sent.png);
         color: #fff;
         text-align: left;
     }
@@ -1435,6 +1438,9 @@
          .container.header-container h1{
              font-size: 45px;
          }
+         .web1{
+            font-size: 35px !important;
+         }
          .blog-title-section h2,.section-heading h2,.card-title{
              font-size: 34px;
          }
@@ -1588,7 +1594,10 @@
             font-size: 30px;
         }
 
+.title-container1{
+    margin-top: 100px;
 
+}
 @media screen and max-width(572px){
 #unique2{
    margin-left: 10px;
@@ -1596,6 +1605,7 @@
 }
 
     @media screen and (max-width: 575.98px){
+        
         .frontd{
             padding: 0px 10px 5px 10px;
             margin-bottom: 5px;
@@ -1625,7 +1635,7 @@
         }
         .factorstitle{
             font-size: 22px;
-            margin-top: 5px;
+            margin-top: 30px;
             margin-bottom: 11px;
         }
         .factorssubtitle{
