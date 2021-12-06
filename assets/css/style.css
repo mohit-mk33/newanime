@@ -452,7 +452,7 @@
             margin-top: -60px;
         }
         .web2subtitle{
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 500;
             margin-top: -30px;
         }
@@ -1369,6 +1369,7 @@
         }
         .web2header{
             margin-top: -60px;
+            font-size: 28px;
         }
         .highlights{
             padding: 50px 0;
@@ -1670,7 +1671,7 @@
             line-height: 1.5;
             font-weight: lighter;
             padding-right: 20px;
-    padding-top: 10px;
+    padding-top: 30px;
 
 
         }
