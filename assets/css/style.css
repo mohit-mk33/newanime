@@ -1681,8 +1681,13 @@
             line-height: 1.5;
             font-weight: lighter;
             padding-right: 20px;
-    padding-top: 30px;
+            padding-top: 30px;
+            
 
+
+        }
+        .payworthylistmobile li{
+            padding: 5px 0px;
 
         }
         .payworthypc{
